@@ -1,0 +1,29 @@
+.container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.big {
+    flex: 1;
+    background-color: rgb(27, 53, 128);
+    color: white;
+    padding: 55px;
+    text-align: center;
+}
+
+.small-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1;
+    max-width: 300px;
+}
+.small {
+    width: 100px;
+    background-color: rgb(27, 53, 128);
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
