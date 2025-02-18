@@ -1,33 +1,37 @@
-.container {
+.rabbit{
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 20px;
-    width: 80%;
-}
-.box {
-    width: 70px;
-    height: 30px;
-    background-color: purple;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 20px;
-    border-radius: 10px;
-}
-.row {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-    width: 100%;
-}
-.row:first-child {
     justify-content: space-between;
 }
-.row:last-child {
-    width: 50%;
+.enter{
+    justify-content: space-evenly;
+    flex-wrap: wrap;
     display: flex;
-    justify-content: space-around;
-
+    background-color: purple;
+    color: white;
+    height: 50px;
+    width: 15%;
+    gap: 20px;
+    line-height: 50px;
+    border-radius: 3px;
+    border: 1px solid black;
+}
+.hgiang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2px;
+    border: 1px solid whitesmoke;
+    color: white;
+    gap: 20px;
+}
+.dmanh{
+    background-color: purple;
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid black;
+    height: 50px;
+    width: 100%;
+    line-height: 50px;
+    border-radius: 3px;
 }
